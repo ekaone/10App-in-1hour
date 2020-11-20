@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Goldman", cursive;
+  margin: 0;
+  padding: 5rem;
+}
+
+button {
+  border: none;
+  background-color: purple;
+  padding: 1rem;
+  border-radius: 5px;
+  outline: none !important;
+  color: aquamarine;
+}
+
+body.dark {
+  background-color: #1f1f1f;
+  color: antiquewhite;
+}
