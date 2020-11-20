@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Goldman", cursive;
+  margin: 0;
+}
+
+button {
+  position: fixed;
+  background-color: purple;
+  border: none;
+  top: 20px;
+  right: 20px;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+button.active {
+  transform: translateX(-100px);
+}
+
+nav {
+  background-color: rebeccapurple;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  position: fixed;
+  padding: 2rem;
+  transform: translateX(100%);
+}
+
+nav.active {
+  transform: translateX(0);
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 2rem 0;
+}
+
+nav a {
+  color: aliceblue;
+  text-decoration: none;
+}
