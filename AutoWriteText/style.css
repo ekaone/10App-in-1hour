@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Goldman", cursive;
+  margin: 0;
+  font-size: 2rem;
+  background: linear-gradient(to right, #4b79a1, #283e51);
+  color: chartreuse;
+}
