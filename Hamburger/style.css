@@ -22,6 +22,8 @@ button {
   padding: 1rem;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
+  outline: none;
+  cursor: pointer;
 }
 
 button.active {
@@ -36,6 +38,7 @@ nav {
   position: fixed;
   padding: 2rem;
   transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
 }
 
 nav.active {
