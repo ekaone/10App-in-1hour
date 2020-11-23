@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Goldman", cursive;
+  flex-direction: column;
+  font-size: 2rem;
+  color: purple;
+}
+
+.card {
+  border: 1px solid crimson;
+  background: powderblue;
+  min-width: 200px;
+  min-height: 200px;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card:hover {
+  border: 5px solid blue;
+  box-shadow: 5px 10px red;
+}
