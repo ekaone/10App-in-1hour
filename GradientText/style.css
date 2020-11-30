@@ -1,1 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Goldman", cursive;
+}
+
+.gradient-text {
+  /* background: -webkit-linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%); */
+  background: linear-gradient(267.91deg, #ffe57f 9.35%, #ff7170 96.48%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section.content {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  height: 500px;
+  background-color: #040303;
+  background-image: url("pattern-light.svg");
+  background-position: center;
+  background-attachment: cover;
+  background-repeat: no-repeat;
+}
+
+section.content h1 {
+  font-size: 96px;
+  line-height: 96px;
+  margin-top: 185px;
+  margin-bottom: 25px;
+}
